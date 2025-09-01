@@ -38,27 +38,27 @@ My research focuses on **Machine learning and computational biology**, utilize m
 
 # 📖 教育经历
 - 2024.09 - 至今
-硕士在读 联合培养  
-中南大学湘雅医院, 湖南长沙
+硕士在读 联合培养  <br>
+中南大学湘雅医院, 湖南长沙<br>
 导师：赵贵虎助理研究员  
 
 - 2023.09 - 至今
-硕士在读  计算机科学与技术
-湖南工业大学计算机与人工智能学院, 湖南株洲
+硕士在读  计算机科学与技术<br>
+湖南工业大学计算机与人工智能学院, 湖南株洲<br>
 导师：赵贵虎助理研究员，袁鑫攀教授   
 
 - 2019-09 - 2023.06  
-理学学士  信息与计算科学
+理学学士  信息与计算科学<br>
 湖南工程学院计算科学与电子学院, 湖南湘潭   
 
 # 📝 研究成果
 
 ## 2025
-- **<u>Xingquan Xia</u>#**, Guihu Zhao#, Xinpan Yuan\*. HCSeer: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG Guideline.  
+- **<u>Xingquan Xia</u>#**, Guihu Zhao#, Xinpan Yuan\*. HCSeer: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG Guideline. <br> 
 _International Symposium on Bioinformatics Research and Applications 2025_, ISBRA 2025 [[link]](https://doi.org/10.1007/978-981-95-0698-9_1) (2025 CCF C)
 
 # 👔 专利
-- 2025 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) 
+- 2025 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) <br>
   赵贵虎，李津臣，**夏性权**
 
 # 🎖 获奖情况
@@ -69,7 +69,7 @@ _International Symposium on Bioinformatics Research and Applications 2025_, ISBR
 - 2020 湖南工程学院优秀共青团员
 
 # 😄 学术活动
-- **2025.08** ISBRA 2025 - 21th International Symposium on Bioinformatics Research and Applications
--  Regular Paper (1), **Oral Presentation**  
+- **2025.08** ISBRA 2025 - 21th International Symposium on Bioinformatics Research and Applications<br>
+  Regular Paper , **Oral Presentation**  
 
 
