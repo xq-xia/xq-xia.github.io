@@ -1,19 +1,19 @@
 # main links links
 main:
   - title: "关于我"
-    url: "/#about-me"
+    url: "/#关于我"
 
   - title: "教育经历"
-    url: "/#-news"
+    url: "/#-教育经历"
 
   - title: "研究成果"
-    url: "/#-publications"
+    url: "/#-研究成果"
 
   - title: "专利"
-    url: "/#-honors-and-awards"
+    url: "/#-专利"
 
   - title: "获奖经历"
-    url: "/#-educations"
+    url: "/#-获奖经历"
 
   - title: "学术活动"
-    url: "/#-invited-talks"
+    url: "/#-学术活动"
