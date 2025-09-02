@@ -57,7 +57,7 @@ My research focuses on **Machine learning and computational biology**, utilize m
 - **<u>Xingquan Xia</u>#**, Guihu Zhao#, Xinpan Yuan\*. HCSeer: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG Guideline. <br> 
 _International Symposium on Bioinformatics Research and Applications 2025_, ISBRA 2025 [[link]](https://doi.org/10.1007/978-981-95-0698-9_1) (2025 CCF C)
 
-# 👔 Patent
+# 👔 专利
 - 2025 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) <br>
   赵贵虎，李津臣，**夏性权**
 
@@ -68,7 +68,7 @@ _International Symposium on Bioinformatics Research and Applications 2025_, ISBR
 - 2020 湖南工程学院学业奖学金
 - 2020 湖南工程学院优秀共青团员
 
-# 😄 Acdemica activities
+# 😄 Acdemic activities
 - **2025.08** ISBRA 2025 - 21th International Symposium on Bioinformatics Research and Applications<br>
   Regular Paper , **Oral Presentation**  
 
