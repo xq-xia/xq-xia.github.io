@@ -16,6 +16,8 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+# 😄 About me
+
 Hi! I’m **Xingquan Xia (夏性权)**.  
 I am a master's candidate in Computer Science and Technology at the School of Computer Science and Artificial Intelligence, Hunan University of Technology, under the supervision of Assistant Researcher Zhao Guihu.   
  
