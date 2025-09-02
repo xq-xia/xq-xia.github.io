@@ -58,7 +58,8 @@ My research focuses on **Machine learning and computational biology**, utilize m
 _International Symposium on Bioinformatics Research and Applications 2025_, ISBRA 2025 [[link]](https://doi.org/10.1007/978-981-95-0698-9_1) (2025 CCF C)
 
 # 👔 Patent
-- 2025 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) <br>
+## 2025 
+- 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) <br>
   赵贵虎，李津臣，**夏性权**
 
 # 🎖 Honors and Awards
