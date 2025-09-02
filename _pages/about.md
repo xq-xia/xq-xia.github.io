@@ -37,7 +37,7 @@ My research focuses on **Machine learning and computational biology**, utilize m
 
 
 # 📖 Educations
-- 2024.09 - 至今
+- 2024.07 - 至今
 硕士在读 联合培养  <br>
 中南大学湘雅医院, 湖南长沙<br>
 导师：赵贵虎助理研究员  
