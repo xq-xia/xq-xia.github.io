@@ -68,7 +68,7 @@ _International Symposium on Bioinformatics Research and Applications 2025_, ISBR
 - 2020 湖南工程学院学业奖学金
 - 2020 湖南工程学院优秀共青团员
 
-# 😄 Acdemic activities
+# 😄 Academic activities
 - **2025.08** ISBRA 2025 - 21th International Symposium on Bioinformatics Research and Applications<br>
   Regular Paper , **Oral Presentation**  
 
