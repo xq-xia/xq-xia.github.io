@@ -59,8 +59,8 @@ My research focuses on **Machine learning and computational biology**, utilize m
 - **<u>Xingquan Xia</u>#**, Guihu Zhao#, Xinpan Yuan\*. HCSeer: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG Guideline. <br> 
 _International Symposium on Bioinformatics Research and Applications 2025_, ISBRA 2025 [[link]](https://doi.org/10.1007/978-981-95-0698-9_1) (2025 CCF C)
 
-- Xinpan Yuan#, **<u>Xingquan Xia</u>#**, Jinchen Li\*, Guihu Zhao\*. HCSeeker: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG-AMP Guideline. <br> 
-_Genetics in Medicine_ [[link]](https://doi.org/10.1016/j.gim.2025.101591) (中科院医学遗传学双一区TOP/JCR Q1)**(导师第一，本人排名第二)**
+- Xinpan Yuan#, **<u>Xingquan Xia</u>#**, Jinchen Li\*, Guihu Zhao\*. HCSeeker: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG-AMP Guideline.**(导师第一，本人排名第二)** <br> 
+_Genetics in Medicine_ [[link]](https://doi.org/10.1016/j.gim.2025.101591) (中科院医学遗传学双一区TOP/JCR Q1)
 
 # 👔 Patent
 ## 2025 
