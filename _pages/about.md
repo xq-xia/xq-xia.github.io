@@ -65,7 +65,7 @@ _Genetics in Medicine_ [[link]](https://doi.org/10.1016/j.gim.2025.101591) (中�
 # 👔 Patent
 ## 2025 
 - 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) <br>
-  赵贵虎，李津臣，**夏性权**
+  赵贵虎，李津臣，**夏性权** **(学生第一发明人)**
 
 # 🎖 Honors and Awards
 - 2024 湖南工业大学研究生学业奖学金
