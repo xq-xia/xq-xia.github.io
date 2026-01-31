@@ -62,7 +62,7 @@ _International Symposium on Bioinformatics Research and Applications 2025_, ISBR
 - Xinpan Yuan#, **<u>Xingquan Xia</u>#**, Jinchen Li\*, Guihu Zhao\*. HCSeeker: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG-AMP Guideline.**(导师第一，本人排名第二)** <br> 
 _Genetics in Medicine_ [[link]](https://doi.org/10.1016/j.gim.2025.101591) (中科院医学遗传学双一区TOP/JCR Q1)
 
-- **<u>Xingquan Xia</u>#**, Guihu Zhao#, Jinchen Li, Xinpan Yuan\*,. HCSeer2: A Deep Learning-Based Multi-Scale Modeling Framework for Predicting Cold and Hot Spots of Variants in the Human Exome.<br> 
+- **<u>Xingquan Xia</u>#**, Guihu Zhao#, Jinchen Li, Xinpan Yuan\*. HCSeer2: A Deep Learning-Based Multi-Scale Modeling Framework for Predicting Cold and Hot Spots of Variants in the Human Exome.<br> 
 _IEEE International Conference on Bioinformatics and Biomedicine 2025_, BIBM 2025 [[link]](https://doi.org/10.1109/BIBM66473.2025.11356196) (2025 CCF B)
 
 # 👔 Patent
@@ -70,7 +70,7 @@ _IEEE International Conference on Bioinformatics and Biomedicine 2025_, BIBM 202
 - 变异富集区域的识别方法、装置及计算机设备（已授权）[[link]](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui) <br>
   赵贵虎，李津臣，**夏性权** **(学生第一发明人)**
 
-- 基因组变异冷热点区域预测方法及装置（申请中 <br>
+- 基因组变异冷热点区域预测方法及装置（申请中） <br>
   赵贵虎，李津臣，**夏性权** **(学生第一发明人)**
 
 # 🎖 Honors and Awards
