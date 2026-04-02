@@ -87,4 +87,10 @@ _IEEE International Conference on Bioinformatics and Biomedicine 2025_, BIBM 202
   Regular Paper , **Oral Presentation**
 - **2025.11** 中华医学会医学遗传学会第二十二次年会，海报展示
 
-
+<div>
+  <div style="display: flex; justify-content: center;">
+    <div id="clustrmaps-widget" style="max-width: 320px; width: 100%;">
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=P9HZbQ7INNstK1pjS8xTG6gyzZ7DHznZuNg1vjm0pVE&cl=ffffff&w=a"></script>
+    </div>
+  </div>
+</div>
