@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="夏性权 - 计算生物学与医学AI方向研究者，展示研究兴趣、学术成果和生活摄影作品。">
+  <title>夏性权 - AI + 计算生物学研究者</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">夏性权</a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">主页</a></li>
+        <li><a href="#research" class="nav-link">研究兴趣</a></li>
+        <li><a href="#skills" class="nav-link">科研技能</a></li>
+        <li><a href="#education" class="nav-link">教育经历</a></li>
+        <li><a href="#publications" class="nav-link">学术成果</a></li>
+        <li><a href="#conferences" class="nav-link">学术活动</a></li>
+        <li><a href="#awards" class="nav-link">荣誉奖赏</a></li>
+        <li><a href="photography.html" class="nav-link">生活记录</a></li>
+        <li><a href="#experience" class="nav-link">科研经历</a></li>
+        <li><a href="#about" class="nav-link">关于</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <nav class="side-nav">
+    <a href="#home" class="side-nav-link active">主页</a>
+    <a href="#research" class="side-nav-link">研究兴趣</a>
+    <a href="#skills" class="side-nav-link">科研技能</a>
+    <a href="#education" class="side-nav-link">教育经历</a>
+    <a href="#publications" class="side-nav-link">学术成果</a>
+    <a href="#conferences" class="side-nav-link">学术活动</a>
+    <a href="#awards" class="side-nav-link">荣誉奖赏</a>
+    <a href="#experience" class="side-nav-link">科研经历</a>
+    <a href="#about" class="side-nav-link">关于</a>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="container hero-container">
+      <div class="hero-image">
+        <img src="pic/夏性权-照片.jpg" alt="夏性权头像占位图" class="profile-photo">
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">夏性权（Xia Xingquan）</h1>
+        <p class="hero-subtitle">中南大学在读博士</p>
+        <p class="hero-subtitle">计算机科学与技术学术硕士</p>
+        <p class="hero-affiliation">中南大学数学与统计学院&中南大学湘雅医院</p>
+
+          <!-- Social Icons -->
+          <div class="hero-social-icons">
+            <a href="https://github.com/xq-xia" target="_blank" class="icon-link" title="GitHub">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=Ld40E40AAAAJ&hl=zh-CN" target="_blank" class="icon-link" title="Google Scholar">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+                </svg>
+            </a>
+            <a href="https://dblp.org/pid/xx/xxxx.html" target="_blank" class="icon-link" title="DBLP">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M20.3 12.5H18v-5h2.3c1.3 0 2.3 1 2.3 2.5s-1 2.5-2.3 2.5m0-7H16v11h4.3c2.4 0 4.3-1.9 4.3-4.3s-1.9-4.7-4.3-4.7M3.7 12.5H6v-5H3.7C2.4 7.5 1.4 8.5 1.4 10s1 2.5 2.3 2.5m0-7H8v11H3.7C1.3 16.5-.6 14.6-.6 12.2s1.9-4.7 4.3-4.7zM10.5 7.5h3v9h-3z"/>
+              </svg>
+          </a>
+          <a href="https://orcid.org/0009-0009-9128-5681" target="_blank" class="icon-link" title="ORCID">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.447V7.416zm3.562 0h3.9c3.119 0 5.122 1.916 5.122 5.022 0 3.116-2.003 5.019-5.122 5.019h-3.9V7.416zm1.444 1.25v7.541h2.353c2.256 0 3.659-1.25 3.659-3.772 0-2.519-1.403-3.769-3.659-3.769h-2.353z"/>
+            </svg>
+        </a>
+        <a href="https://www.semanticscholar.org/" target="_blank" class="icon-link" title="Semantic Scholar">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 17.062c-.286.43-.807.616-1.32.483-1.241-.32-3.149-1.026-4.574-2.193-1.425 1.167-3.333 1.873-4.574 2.193-.513.133-1.034-.053-1.32-.483-.285-.43-.238-.994.116-1.373.541-.58 1.554-1.517 2.378-2.595-.916-1.01-1.637-2.203-1.637-3.594 0-2.735 2.217-4.952 4.952-4.952s4.952 2.217 4.952 4.952c0 1.391-.721 2.584-1.637 3.594.824 1.078 1.837 2.015 2.378 2.595.354.379.401.943.116 1.373zm-5.894-11.41c-2.029 0-3.676 1.647-3.676 3.676s1.647 3.676 3.676 3.676 3.676-1.647 3.676-3.676-1.647-3.676-3.676-3.676z"/>
+          </svg>
+      </a>
+        </div>
+
+
+        <div class="hero-tags">
+          <a href="#research" class="tag">计算生物学</a>
+          <a href="#research" class="tag">大语言模型</a>
+          <a href="#research" class="tag">AI+医学基因组学</a>
+          <a href="#research" class="tag">数学</a>
+          <a href="#research" class="tag">统计学</a>
+          <a href="#research" class="tag">计算机科学与技术</a>
+        </div>
+
+        <p class="hero-bio">
+          我是中南大学统计学在读博士，同时拥有计算机科学与技术硕士学位。研究方向聚焦于“人工智能+医学基因组学”，学术背景涵盖计算机科学与技术、生物信息学、计算生物学、统计学、数学及基因组学等多个领域。当前研究主要围绕变异冷热点识别、变异外显率预测、面向基因组学服务的深度学习建模、多模态特征融合及临床辅助决策支持等方向展开，同时致力于将研究成果转化为可交互平台和临床实用工具，推动技术落地应用。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">研究兴趣</h2>
+      <div class="interests-grid">
+        <div class="interest-card">
+          <div class="interest-icon">🧬</div>
+          <h3>计算生物学</h3>
+          <p>基因组变异注释、致病性解读、热点/冷点识别与临床证据标准化。</p>
+        </div>
+        <div class="interest-card">
+          <div class="interest-icon">🧠</div>
+          <h3>深度学习建模</h3>
+          <p>CNN、Transformer、Self-Attention、自监督学习与多尺度特征融合。</p>
+        </div>
+        <div class="interest-card">
+          <div class="interest-icon">🏥</div>
+          <h3>AI+医学基因组学</h3>
+          <p>面向临床辅助决策、风险预测与可解释模型的真实场景应用。</p>
+        </div>
+        <div class="interest-card">
+          <div class="interest-icon">🤖</div>
+          <h3>大模型的应用</h3>
+          <p>探索大语言模型在医疗健康、文本挖掘与复杂任务对齐中的实际落地。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">科研技能</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>程序设计 & 数据分析</h4>
+          <p>C++、Python、Java、React、SpringBoot、数据结构与算法、数据分析、Linux</p>
+        </div>
+        <div class="skill-card">
+          <h4>机器学习 & AI</h4>
+          <p>PyTorch、JAX、CNN、Transformer、Self-Attention、SHAP、Hugging Face、Llama-Factory</p>
+        </div>
+        <div class="skill-card">
+          <h4>大模型</h4>
+          <p>LLM、微调、提示词工程</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">教育经历</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2026 - 至今</div>
+          <div class="timeline-logo">
+            <img src="pic/CSU.png" alt="博士">
+            <div class="logo-placeholder" style="display:none;">XY</div>
+          </div>
+          <div class="timeline-content">
+            <h3>博士</h3>
+            <p class="institution">中南大学数学与统计学院&中南大学湘雅医院</p>
+            <p class="description">导师：李津臣教授、赵贵虎老师。主要开展基因组数据分析、深度学习模型构建与基于大语言模型的医学临床决策。</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2024 - 2026</div>
+          <div class="timeline-logo">
+            <img src="pic/XYA.png" alt="联合培养单位">
+            <div class="logo-placeholder" style="display:none;">XY</div>
+          </div>
+          <div class="timeline-content">
+            <h3>联合培养硕士</h3>
+            <p class="institution">中南大学湘雅医院国家老年疾病临床医学研究中心</p>
+            <p class="description">导师：赵贵虎老师、李津臣教授。主要开展基因组数据分析、深度学习模型构建与临床变异致病性评级任务落地。</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2023 - 2026</div>
+          <div class="timeline-logo">
+            <img src="pic/HUT.png" alt="湖南工业大学">
+            <div class="logo-placeholder" style="display:none;">HUT</div>
+          </div>
+          <div class="timeline-content">
+            <h3>计算机科学与技术学术硕士</h3>
+            <p class="institution">湖南工业大学</p>
+            <p class="description">导师：袁鑫攀教授。年级排名前 20%，主修数据分析、图像处理、模式识别与人工智能、大数据、深度学习、算法分析与设计等。</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2019 - 2023</div>
+          <div class="timeline-logo">
+            <img src="pic/HNIE.jpg" alt="本科院校">
+            <div class="logo-placeholder" style="display:none;">HEU</div>
+          </div>
+          <div class="timeline-content">
+            <h3>信息与计算科学理学学士</h3>
+            <p class="institution">湖南工程学院</p>
+            <p class="description">主修 C++、Python、Java、高等代数、数学分析、数据结构、算法与程序设计、数据分析等，排名前20%。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">科研成果</h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="journal">Journal</button>
+        <button class="filter-btn" data-filter="conference">Conference</button>
+        <button class="filter-btn" data-filter="patent">Patent</button>
+        <button class="filter-btn" data-filter="in-preparation">In Preparation</button>
+        <button class="filter-btn" data-filter="peer-reviewed">Peer-Reviewed</button>
+      </div>
+
+      <div class="publications-list">
+        <div class="publication-item" data-category="journal">
+          <span class="pub-year">2025</span>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S1098360025002382" target="_blank" rel="noopener noreferrer">
+                  HCSeeker: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG-AMP Guideline
+              </a>
+          </h3>
+            <p class="pub-authors"><strong>夏性权</strong>，与导师并列一作</p>
+            <p class="pub-journal"><em>Genetics in Medicine</em>, 中科院一区TOP. 基于 KDE 与 EM 算法识别人类遗传变异热点/冷点，为 ACMG/AMP 指南中的 PM1 证据提供数据支持。</p>
+            <span class="pub-tag">Journal</span>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="conference">
+          <span class="pub-year">2025</span>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              <a href="https://ieeexplore.ieee.org/abstract/document/11356196" target="_blank" rel="noopener noreferrer">
+                HCSeer2: A Deep Learning-Based Multi-Scale Modeling Framework for Predicting Cold and Hot Spots of Variants in the Human Exome
+            </a>
+            </h3>
+            <p class="pub-authors"><strong>夏性权</strong>，第一作者</p>
+            <p class="pub-journal"><em>IEEE BIBM 2025</em>, CCF B. 融合 CNN 与 Self-Attention 的多尺度深度学习框架。</p>
+            <span class="pub-tag">Conference</span>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="conference">
+          <span class="pub-year">2025</span>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-95-0698-9_1" target="_blank" rel="noopener noreferrer">
+                HCSeer: A Classification Tool for Human Genetic Variant Hot and Cold Spots Designed for PM1 and Benign Criteria in the ACMG Guideline
+            </a>
+            </h3>
+            <p class="pub-authors"><strong>夏性权</strong>，第一作者</p>
+            <p class="pub-journal"><em>IRBRA 2025</em>，CCF C. HCSeeker 论文会议版本。</p>
+            <span class="pub-tag">Conference</span>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="patent">
+          <span class="pub-year">2025</span>
+          <div class="pub-content">
+            <h3 class="pub-title">变异富集区域的识别方法、装置及计算机设备</h3>
+            <p class="pub-authors"><strong>已授权专利</strong></p>
+            <p class="pub-journal">与 HCSeeker 算法相关，面向临床可落地的变异富集区域识别。</p>
+            <span class="pub-tag">Patent</span>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="patent">
+          <span class="pub-year">2026</span>
+          <div class="pub-content">
+            <h3 class="pub-title">基于 CNN 与自注意力机制的基因组变异冷热点区域预测方
+              法</h3>
+            <p class="pub-authors"><strong>实质审查</strong></p>
+            <p class="pub-journal">与 HCSeeker2 算法相关，集成多维先验特征知识的多模态深度学习框架。</p>
+            <span class="pub-tag">Patent</span>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="in-preparation">
+          <span class="pub-year">2026</span>
+          <div class="pub-content">
+            <h3 class="pub-title">An interpretable model based on artificial intelligence for predicting risk factors of delayed emergence from general anesthesia in children</h3>
+            <p class="pub-authors"><strong>夏性权</strong>，第一作者</p>
+            <p class="pub-journal">多中心回顾性研究，AUC 达 0.968，并使用 SHAP 分析关键影响因素。</p>
+            <span class="pub-tag in-prep">In Preparation</span>
+          </div>
+        </div>
+        <div class="publication-item" data-category="in-preparation">
+          <span class="pub-year">2026</span>
+          <div class="pub-content">
+            <h3 class="pub-title">HCSeeker2: Deep learning integration of sequence context and prior features for whole-exome variant hot and cold spot prediction</h3>
+            <p class="pub-authors"><strong>夏性权</strong>，第一作者</p>
+            <p class="pub-journal">集成CNN-注意力机制与多维先验特征知识的多模态深度学习框架，用于预测人类基因变异冷热点区域。</p>
+            <span class="pub-tag in-prep">In Preparation</span>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="peer-reviewed">
+          <span class="pub-year">2026</span>
+          <div class="pub-content">
+            <h3 class="pub-title">Cross-Interaction Graph Learning for Spatial Transcriptomics</h3>
+            <p class="pub-authors"><strong>Zongze Li</strong>, Yunbo Li and Binhong Li</p>
+            <p class="pub-journal">In Proceedings of the 33rd International Conference on Neural Information Processing</p>
+            <span class="pub-tag in-prep">Peer-Reviewed</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="conferences" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">学术活动</h2>
+      <p class="section-subtitle">精选学术会议与演讲</p>
+
+      <div class="conference-list">
+        <div class="conference-item">
+          <div class="conference-image"><img src="pic/BIBM-2025.png" alt="Conference Presentation"></div>
+          <div class="conference-content">
+            <span class="conference-year">2025</span>
+            <h3 class="conference-title">HCSeeker2 深度学习框架相关报告</h3>
+            <p class="conference-authors"><strong>夏性权</strong></p>
+            <p class="conference-venue">2025 IEEE第19届国际生物信息学与生物医学会议，武汉</p>
+            <p class="conference-date">2025 年 12 月</p>
+            <span class="pub-tag presentation">Oral Presentation</span>
+          </div>
+        </div>
+
+        <div class="conference-item">
+          <div class="conference-image"><img src="pic/YCXH.jpg" alt="Conference Presentation"></div>
+          <div class="conference-content">
+            <span class="conference-year">2025</span>
+            <h3 class="conference-title">变异冷热点识别与临床证据评级</h3>
+            <p class="conference-authors"><strong>夏性权</strong></p>
+            <p class="conference-venue">中华医学会第二十二次医学遗传学学术年会</p>
+            <p class="conference-date">2025 年</p>
+            <span class="pub-tag poster">Poster Presentation</span>
+          </div>
+        </div>
+
+        <div class="conference-item">
+          <div class="conference-image"><img src="pic/ISBRA-2025.png" alt="Conference Presentation"></div>
+          <div class="conference-content">
+            <span class="conference-year">2025</span>
+            <h3 class="conference-title">基于机器学习聚类算法的变异冷热点识别</h3>
+            <p class="conference-authors"><strong>夏性权</strong></p>
+            <p class="conference-venue">第21届国际生物信息学研究与应用研讨会</p>
+            <p class="conference-date">2025 年</p>
+            <span class="pub-tag presentation">Oral Presentation</span>
+          </div>
+        </div>
+
+        <div class="conference-item">
+          <div class="conference-image"><img src="pic/XYSX.jpg" alt="Conference Presentation"></div>
+          <div class="conference-content">
+            <span class="conference-year">2025</span>
+            <h3 class="conference-title">会务组成员</h3>
+            <p class="conference-authors"><strong>夏性权</strong></p>
+            <p class="conference-venue">2025 中国细胞生物学学会功能基因组信息学与系统生物学分会全国学术研讨会暨第四届湘雅生物信息前沿论坛</p>
+            <p class="conference-date">2025 年</p>
+            <span class="pub-tag presentation">会务组成员</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="section">
+    <div class="container">
+      <h2 class="section-title">荣誉奖赏</h2>
+      <p class="section-subtitle">精选荣誉</p>
+
+      <div class="awards-list">
+        <div class="award-item">
+          <div class="award-year">2025</div>
+          <div class="award-content">
+            <h3>研究生国家奖学金</h3>
+            <p class="award-org">湖南工业大学</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2025-2026</div>
+          <div class="award-content">
+            <h3>学业奖学金</h3>
+            <p class="award-org">湖南工业大学</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2024-2025</div>
+          <div class="award-content">
+            <h3>学业奖学金</h3>
+            <p class="award-org">湖南工业大学</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2023-2024</div>
+          <div class="award-content">
+            <h3>学业奖学金</h3>
+            <p class="award-org">湖南工业大学</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2024</div>
+          <div class="award-content">
+            <h3>五四红旗研究生团支部</h3>
+            <p class="award-org">湖南工业大学</p>
+            <span class="award-badge academic">Honor</span>
+          </div>
+        </div>
+        
+        <div class="award-item">
+          <div class="award-year">2022-2023</div>
+          <div class="award-content">
+            <h3>湖南工程学院程序设计大赛一等奖</h3>
+            <p class="award-org">湖南工程学院</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2021-2022</div>
+          <div class="award-content">
+            <h3>学业奖学金</h3>
+            <p class="award-org">湖南工程学院</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2020-2021</div>
+          <div class="award-content">
+            <h3>学业奖学金</h3>
+            <p class="award-org">湖南工程学院</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2019-2020</div>
+          <div class="award-content">
+            <h3>学业奖学金</h3>
+            <p class="award-org">湖南工程学院</p>
+            <span class="award-badge scholarship">Scholarship</span>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <div class="award-year">2020-2021</div>
+          <div class="award-content">
+            <h3>湖南工程学院优秀共青团员</h3>
+            <p class="award-org">湖南工程学院</p>
+            <span class="award-badge academic">Honor</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="photography" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">生活记录</h2>
+      <p class="section-subtitle">记录我的生活中发生的有趣的事情</p>
+
+      <div class="photo-section-header">
+        <h3>幸福时刻</h3>
+      </div>
+      <div class="photo-grid-2col">
+        <div class="photo-item"><img src="pic/01.jpg" alt="Personal 1"><div class="photo-overlay"><p class="photo-caption">Portrait</p></div></div>
+        <div class="photo-item"><img src="pic/02.jpg" alt="Personal 2"><div class="photo-overlay"><p class="photo-caption">Portrait</p></div></div>
+        <div class="photo-item"><img src="pic/03.jpg" alt="Personal 3"><div class="photo-overlay"><p class="photo-caption">Portrait</p></div></div>
+        <div class="photo-item"><img src="pic/04.jpg" alt="Personal 1"><div class="photo-overlay"><p class="photo-caption">Portrait</p></div></div>
+        <div class="photo-item"><img src="pic/05.jpg" alt="Personal 2"><div class="photo-overlay"><p class="photo-caption">Portrait</p></div></div>
+        <div class="photo-item"><img src="pic/06.jpg" alt="Personal 3"><div class="photo-overlay"><p class="photo-caption">Portrait</p></div></div>
+      </div>
+
+
+      <!-- <div style="text-align: center; margin-top: 3rem;">
+        <a href="photography.html" class="view-more-btn">View Full Gallery →</a>
+      </div> -->
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox" style="display: none;">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div class="lightbox-caption"></div>
+    <button class="lightbox-prev">&#10094;</button>
+    <button class="lightbox-next">&#10095;</button>
+  </div>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">科研经历</h2>
+
+      <h3 class="experience-category">研究课题</h3>
+      <div class="experience-list">
+        <div class="experience-item">
+          <div class="exp-logo">
+            <img src="pic/CSU.png" alt="HCSeeker" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="logo-placeholder" style="display:none;">HC</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <h3>HCSeeker：人类遗传变异冷热点应用数据库及平台构建</h3>
+              <span class="exp-period">2023 - 2024</span>
+            </div>
+            <p class="exp-org">面向 ACMG/AMP 指南的变异证据支持平台</p>
+            <ul class="exp-description">
+              <li>设计 KDE + EM 算法架构，识别基因内变异富集热点与稀疏冷点区域。</li>
+              <li>整合 150+ 多源异构基因组注释数据，搭建交互式在线平台。</li>
+              <li>实现变异自动化注释脚本，将算法结果转化为 ACMG 标准临床证据。</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="exp-logo">
+            <img src="pic/CSU.png" alt="HCSeeker2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="logo-placeholder" style="display:none;">H2</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <h3>HCSeeker2.0：基于深度学习的变异冷热点智能预测框架</h3>
+              <span class="exp-period">2024 - 2025</span>
+            </div>
+            <p class="exp-org">多尺度深度学习建模</p>
+            <ul class="exp-description">
+              <li>构建 CNN + Self-Attention 双模态框架，结合 Transformer 捕获长程依赖关系。</li>
+              <li>引入自监督学习增强对变异聚集机制的建模能力。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="experience-category">Professional Experience</h3>
+      <div class="experience-list">
+        <div class="experience-item">
+          <div class="exp-logo">
+            <img src="pic/CSU.png" alt="Xiangya Hospital" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="logo-placeholder" style="display:none;">XY</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <h3>算法开发与实现</h3>
+              <span class="exp-period">2024 - 2026</span>
+            </div>
+            <p class="exp-org">中南大学湘雅医院医学遗传学与生物信息学课题组联合培养</p>
+            <ul class="exp-description">
+              <li>承担基因组数据分析、临床变异解读与模型实现相关任务。</li>
+              <li>参与从研究到平台落地的工程化工作，支持结果可视化与标准化输出。</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="exp-logo">
+            <img src="pic/CSU.png" alt="Clinical AI" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="logo-placeholder" style="display:none;">AI</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <h3>人工智能辅助患儿苏醒延迟风险预测</h3>
+              <span class="exp-period">2025 - 2026</span>
+            </div>
+            <p class="exp-org">多中心临床研究项目</p>
+            <ul class="exp-description">
+              <li>分析 5,760 例围术期数据，构建 AUC 0.968 的风险预测模型。</li>
+              <li>通过 SHAP 解释关键影响因素，并服务于临床辅助决策。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>我来自湖南工程学院信息与计算科学专业，随后在湖南工业大学攻读计算机科学与技术硕士，并在中南大学湘雅医院开展联合培养，目前在中南大学攻读统计学博士学位。我的工作主要围绕计算生物学、深度学习和医学 AI 展开。</p>
+        <p>目前我专注于基因变异致病性自动化解读、变异冷热点预测以及可解释模型在临床场景中的应用，希望把算法真正转化为医生和研究者可以使用的工具。</p>
+        <p>如果你对 AI + 计算生物学、临床辅助决策或医学数据分析感兴趣，欢迎通过邮箱或项目主页与我联系。</p>
+      </div>
+
+      <div class="contact-section" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+        <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem; color: #333;">Get in Touch</h3>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:xingquanxia@163.com">xingquanxia@163.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div>
+                <h3>Phone</h3>
+                <a href="tel:18230643292">18230643292</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h3>Location</h3>
+                <p>湖南 · 中国</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.genemed.tech/hcseeker/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Project" title="Project">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+            </a>
+            <a href="resume.html" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Resume" title="Resume">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6 2h9l5 5v15H6zM14 3.5V8h4.5"/><path d="M8 12h8M8 15h8M8 18h5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+            </a>
+            <a href="mailto:xingquanxia@163.com" class="social-link" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+            </a>
+            <a href="#home" class="social-link" aria-label="Home" title="Home">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 3l9 8h-3v10h-5v-6H11v6H6V11H3z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 夏性权. This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
+      <p class="footer-note">Designed with inspiration from academic personal pages</p>
+      <p class="visitor-count">
+        <span style="margin-right: 0.5rem;">👁️</span>
+        Visitors: <span id="visitor-count-number">Loading...</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      let visitCount = localStorage.getItem('visitCount');
+      if (!visitCount) {
+        visitCount = Math.floor(Math.random() * 100) + 500;
+      }
+      visitCount = parseInt(visitCount) + 1;
+      localStorage.setItem('visitCount', visitCount);
+      document.getElementById('visitor-count-number').textContent = visitCount.toLocaleString();
+    });
+  </script>
+</body>
+</html>
